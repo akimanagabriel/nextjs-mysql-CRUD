@@ -19,3 +19,11 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+input {
+  @apply w-full px-4 rounded py-2 bg-slate-700 border border-slate-600 outline-none;
+}
+
+button {
+  @apply bg-indigo-700 h-10 w-full mt-5 rounded hover:bg-indigo-800 uppercase flex items-center justify-center gap-3;
+}
